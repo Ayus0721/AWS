@@ -15,3 +15,30 @@
 
 ![image](https://github.com/Ayus0721/AWS/assets/147092631/98bd5b6d-0cd3-4a33-be7a-3bbd085a1960)
 ![image](https://github.com/Ayus0721/AWS/assets/147092631/d8252688-a6d3-4ca2-b070-14b9e9f27067)
+
+## Advantages 
+- faster time to market
+- scalability and flexibility
+- cost savings
+- better collaboration
+- advanced security
+- data loss prevention
+## Disadvantages
+- risk of vendor lock-in
+- less control over underlying cloud insfra
+- concerns about security risks like data privacy and online threats
+- integration complexity with exisiting systems
+- unforseen costs and unexpected expenses
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/6c25f6b4-b142-4f86-be8e-b4273c918093)
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/6cfe07cb-eb1c-4107-acb4-43677dacce49)
+
+- Example of private implementation softwares : openstack , opennebula
+- 
+## Different domains in which AWS offer services:
+- Compute: It is used to process data on the cloud by making use of powerful processors which serve multiple instances
+at a time
+- Storage and Content Delivery: The storage as the name suggests, is used to store data in the cloud, this data can be stored anywhere but
+content delivery on the other hand is used to cache data nearer to the user so as to provide low latency.
+
