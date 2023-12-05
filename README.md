@@ -35,10 +35,44 @@
 ![image](https://github.com/Ayus0721/AWS/assets/147092631/6cfe07cb-eb1c-4107-acb4-43677dacce49)
 
 - Example of private implementation softwares : openstack , opennebula
-- 
+ 
 ## Different domains in which AWS offer services:
-- Compute: It is used to process data on the cloud by making use of powerful processors which serve multiple instances
+- Compute:
+ It is used to process data on the cloud by making use of powerful processors which serve multiple instances
 at a time
-- Storage and Content Delivery: The storage as the name suggests, is used to store data in the cloud, this data can be stored anywhere but
+- Storage and Content Delivery:
+The storage as the name suggests, is used to store data in the cloud, this data can be stored anywhere but
 content delivery on the other hand is used to cache data nearer to the user so as to provide low latency.
+- Database:
+  The database domain is used to provide reliable relational and non-relational database instances managed by AWS
+- Networking:
+  It includes services which provide a variety of networking features such as security, faster access etc
+- Management Tools:
+  It includes services which can be used to manage and monitor your AWS instances.
+-  Security and Identity:
+  It includes services for user authentication or limiting access to a certain set of audience on your AWS resources.
 
+- Application Services: It includes simple services like notifications, emailing and queuing.
+
+  # Compute Services
+  
+- Amazon EC2
+- Amazon EC2 Auto Scaling
+- Amazon Elastic Container Registry
+- Amazon Elastic Container Service
+- Amazon Elastic Kubernetes Service
+- Amazon Lightsail
+- AWS Batch
+- AWS Elastic Beanstalk
+- AWS Fargate
+- AWS Lambda
+- AWS Serverless Application Repository
+- AWS Outposts
+- VMware Cloud on AWS
+
+# AWS EC2
+![image](https://github.com/Ayus0721/AWS/assets/147092631/f02921d5-7c1a-4d55-8502-5728edef7b60)
+
+- EC2 stands for Amazon Elastic Compute Cloud.
+- It is a web service which provides re-sizable compute capacity in the cloud.
+- It is designed to make the web scale computing easier for developers.
