@@ -76,3 +76,51 @@ content delivery on the other hand is used to cache data nearer to the user so a
 - EC2 stands for Amazon Elastic Compute Cloud.
 - It is a web service which provides re-sizable compute capacity in the cloud.
 - It is designed to make the web scale computing easier for developers.
+
+# AWS EC 2 offers 5 different types of instances
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/013a1cf1-538b-48ff-904c-bfa858dd1b02)
+
+- ## 1. General Instances:
+
+- For applications that require a balance of performance and cost.
+- E.g email responding systems, where you need a prompt response as well as the it should be cost effective, since it doesn’t require much processing
+  
+-  ## 2. Compute Instances
+
+- For applications that require a lot of processing from the CPU.
+- E.g analysis of data from a stream of data, like Twitter stream
+
+  
+- ## 3. Memory Instances
+  
+- For applications that are heavy in nature, therefore, require a lot of RAM
+- E.g when your system needs a lot of applications running in the background i.e
+multitasking.
+
+- ## 4. Storage Instances
+
+- For applications that are huge in size or have a data set that occupies a lot of space.
+- E.g When your application is of huge size
+
+- ## 5. GPU Instances
+
+- For applications that require some heavy graphics rendering
+- E.g 3D modelling etc
+
+# AWS Elastic Beanstalk
+
+Elastic Beanstalk quickly deploy and manage applications in AWS without worrying about the underlying
+infrastructure.
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/7190b3d2-9b48-4711-a723-333484004420)
+
+
+- Elastic Beanstalk is a service provided by AWS which is used for deploying infrastructure which consists of many AWS services
+- These services include AWS S3, EC2, auto-scaling, cloud watch, Elastic load balancer, and simple notification service
+- It is easy to start with Elastic Bean Stalk as you can see AWS Management Console, the command line interface or the API
+- All you have to do is choose your platforms such as Node.js or Ruby and Amazon EC2 instance type.
+- After the code is uploaded the AWS Elastic Beanstalk will handle the rest of the activities such as provisioning, load balancing, auto-scaling, and other activities.
+- AWS does not implement any extra charges for Elastic Beanstalk as you have pay only for the AWS
+  resources needed to run your applications without any hidden or upfront cost
+  
