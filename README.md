@@ -197,7 +197,7 @@ infrastructure.
 
 - # Then why not EC2 ?
 
-![image](https://github.com/Ayus0721/AWS/assets/147092631/28a8eb44-4e35-4cdd-a2c7-ed75a8773ec2)
+![image](https://github.com/Ayus0721/AWS/assets/147092631/57cb2b9d-4e38-4b02-96e8-0d4036a37528)
 
 
 
@@ -224,7 +224,16 @@ infrastructure.
   for the development of the software. 
 - It also helps us with some functions such as retrying requests, and handling error responses, making it is
   easier for the applicant to get started.
-- 
+
+
+# AWS Autoscaling
+- The Autoscaling feature is used to scale up and down automatically as and when required.
+- The Auto Scaling helps us by providing surety that there is a sufficient number of Amazon EC2 instances available to handle that load.
+- You can set a limit on EC2 instances such that the number doesn’t go below this
+- The maximum numbers of EC2 instances can be set to be on a safer side.
+- AWS Autoscaling ensures that your group has a sufficient amount of servers.
+- Auto-scaling automatically modifies the EC2 instance as per your demand changes
+- One can access Auto Scaling by signing into the AWS Management Console.
 
 
 
