@@ -79,6 +79,9 @@ content delivery on the other hand is used to cache data nearer to the user so a
 - It is a web service which provides re-sizable compute capacity in the cloud.
 - It is designed to make the web scale computing easier for developers.
 
+![image](https://github.com/Ayus0721/AWS/assets/147092631/12607679-caf8-4fd4-9a50-eeee766a1144)
+
+
 # AWS EC 2 offers 5 different types of instances
 
 ![image](https://github.com/Ayus0721/AWS/assets/147092631/013a1cf1-538b-48ff-904c-bfa858dd1b02)
