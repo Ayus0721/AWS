@@ -15,6 +15,8 @@
 
 ![image](https://github.com/Ayus0721/AWS/assets/147092631/98bd5b6d-0cd3-4a33-be7a-3bbd085a1960)
 ![image](https://github.com/Ayus0721/AWS/assets/147092631/d8252688-a6d3-4ca2-b070-14b9e9f27067)
+![service models](https://github.com/Ayus0721/AWS/assets/147092631/b97fefbb-46f7-47db-ae8c-e53ce0429445)
+
 
 ## Advantages 
 - faster time to market
