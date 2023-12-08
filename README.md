@@ -234,6 +234,209 @@ infrastructure.
 - AWS Autoscaling ensures that your group has a sufficient amount of servers.
 - Auto-scaling automatically modifies the EC2 instance as per your demand changes
 - One can access Auto Scaling by signing into the AWS Management Console.
+- AWS Auto-scaling helps you if you are using language-specific APIs rather than submitting requests over
+  HTTP or HTTPS Auto Scaling provides a benefit of libraries, Sample code, tutorial, and other resources
+  for the development of the software. 
+
+- It also helps us with some functions such as retrying requests, and handling error responses, making it is
+  easier for the applicant to get started.
+# Amazon Elastic Container Service
+- # AMAZON EC2 CONTAINER SERVICE (ECS)
+- Amazon EC2 Container Service (Amazon ECS) is a highly scalable, fast, container management service
+  that makes it easy to run, stop, and manage Docker containers on a cluster of Amazon EC2 instances.
+- Amazon ECS uses Docker images in task definitions to launch containers on EC2 instances in our clusters.
+- Docker is a technology that allows us to build, run, test, and deploy distributed applications that are based
+  on Linux containers
+  
+- ECS is basically a set of APIs that turn EC2 instances into compute cluster for container management:
+
+- 1. EC2 instances must call RegisterContainerInstance API to signal that they are ready to run containers.
+- 2. Need to call RegisterTaskDefinition API to define the tasks (setting an image, command and memory for docker
+  run etc.)
+- 3. We use RunTask API to start a new task.
+- 4. Lastly, we make a CreateService API call to run a long-running container
+
+- # Storage and Content Delivery
+- Storage
+
+-  Amazon S3
+-  Amazon Elastic Block Store
+-  Amazon Elastic File System
+-  Amazon FSx for Lustre
+-  Amazon FSx for Windows File Server
+-  Amazon S3 Glacier
+-  AWS Storage Gateway
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/54c76a2a-99b3-4291-a401-0daa4d2457a1)
+![image](https://github.com/Ayus0721/AWS/assets/147092631/6dc3bb3b-26bf-43a9-a4cf-6be8980d8847)
+- #  S3 AWS
+- S3 stands for simple storage service, it is used for storing data in the form of objects in the AWS Cloud.
+-  Amazon Simple Storage Service (S3) is a storage for the internet.
+- It is designed for large-capacity, low-cost storage provision across multiple geographical regions.
+- Amazon S3 provides developers and IT teams with Secure, Durable and Highly Scalable object storage.
+- S3 is a safe place to store the files.
+- It is Object-based storage, i.e., you can store the images, word files, pdf files, etc.
+- The files which are stored in S3 can be from 0 Bytes to 5 TB.
+- It has unlimited storage means that you can store the data as much you want.
+- Files are stored in Bucket. A bucket is like a folder available in S3 that stores the files.
+- S3 is a universal namespace, i.e., the names must be unique globally. Bucket contains a DNS address.
+  Therefore, the bucket must contain a unique name to generate a unique DNS address.
+
+
+- # Amazon Glacier
+
+-  Glacier is an archiving service offered by Amazon, which offers low cost data archiving.
+- Amazon Glacier is extremely low cost, secure, and durable storage service for data archiving and
+  backup.
+- It is designed to keep the cost low and optimized for the cold data where the retrieval time is 3 to 4 hours.
+  Within Glacier, the user can reliably store the small and large amount of data.
+- In AWS Glacier, there is no limit for the data user stores. Moreover, the data is secure and can access
+  easily.
+- Amazon Glacier helps to protect the data by redundantly storing it on multiple devices using multiple
+  facilities.
+- AWS Glacier has a Data Integrity Check which regularly monitors the data in the Glacier.
+- It also provides security and fine-grained access to the data of the user with AWS Access Management
+  policies.
+
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/ab96042c-00e1-43c0-87c1-8bd455190b7f)
+
+- # Amazon EBS
+-  Amazon Elastic Block Store (EBS) is a block storage system used to store persistent data.
+-  Amazon EBS is suitable for EC2 instances by providing highly available block level storage volumes.
+-  It has three types of volume
+1. General Purpose (SSD)
+2. Provisioned IOPS (SSD)
+3. Magnetic.
+- # Amazon EBS Benefits
+- Reliable and secure storage − Each of the EBS volume will automatically respond to its Availability
+  Zone to protect from component failure.
+- Secure − Amazon’s flexible access control policies allows to specify who can access which EBS volumes.
+  Access control plus encryption offers a strong defense-in-depth security strategy for data.
+- Higher performance − Amazon EBS uses SSD technology to deliver data results with consistent I/O
+  performance of application.
+- Easy data backup − Data backup can be saved by taking point-in-time snapshots of Amazon EBS
+  volumes.
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/a9c93738-3168-47bb-ba38-bc4abfafba0b)
+
+- # What is AWS Storage Gateway?
+- Amazon Storage Gateway is a modified storage service which enables the applications to use the
+  AWS Cloud for storage purpose.
+- Amazon SG can help for backup and archiving, cloud processing, disaster recovery, and migration.
+- Standard storage protocol such as NFS, SMB, and Amazon EBS connects the applications to a gateway
+  appliance using standard storage protocol.
+- The gateways get connected to the storage services such as Amazon S3, Amazon Glacier, and Amazon
+  EBS.
+- This service benefits the user in many ways such as It includes highly-optimized data transfer mechanism.
+- Low-latency data along with the on-premise local cache provides access to the data.
+
+- # CloudFront CDN
+![image](https://github.com/Ayus0721/AWS/assets/147092631/a7fde5cb-5ca2-43f1-802e-edc095143524)
+- CloudFront CDN (Computer Delivery Network) is a system of distributed servers that deliver web pages
+  and other web content to a user based on the geographic locations of the user, the origin of the webpage
+  and a content delivery server.
+- Suppose I am running the website outside the UK and I am serving the website all around the world.
+- When the user wants to access my website, then they request to the web server, and users from different
+  countries will have different latency.
+- For example, People who live in Australia will have more latency than those who stay in India.
+- South Africa has a terrible latency, but they would run internet backbone that makes quicker to connect to
+  the UK.
+- This is how it works with CloudFront CDN in which people spread all around the world, and they can turn
+  on access to the web page, audio files, etc. in the UK.
+  Snowball
+- The Snowball is a way of transferring your data physically. In this Amazon sends an equipment to your
+  premises, on which you can load the data. It has a kindle attached to it which has your shipping address
+  when it is shipped from Amazon. When data transfer is complete on the Snowball,
+
+  # Database
+- # AWS database service includes the following services:
+- Amazon Relational Database Service: It supports six (Amazon aurora ,MySQL ,PostgreSQL’s Server,Oracle, MariaDB)commonly used database engines.
+- Amazon Aurora: It is a MySQL-Compatible relational database with five times performance.
+- Amazon DynamoDB: It is a fast and flexible NoSQL database service.
+- Amazon Redshift: It is a petabyte-scale data warehouse service.
+- Amazon Elasticache: It is an in-memory cache service with support for Memcached and Redis.
+- AWS Database Migration Service: It is a service that provides easy and inexpensive to migrate yourdatabases to AWS cloud.
+
+- The Amazon Relational Database Service (RDS AWS) is a web service that makes it easier to set up, operate,
+  and scale a relational database in the cloud. It provides cost-efficient, re-sizable capacity in an industry-standard
+  relational database and manages common database administration tasks.
+  So people often develop a misconception, when they confuse RDS with a database.
+  RDS is not a database, it’s a service that manages databases, having said that, let’s discuss the databases that
+- # RDS can manage as of now:
+- Amazon aurora
+- Mysql
+- PostgreSQL
+- SQL Server
+- Oracle
+- MariaDB
+- # VPC AWS
+- Amazon VPC lets you launch AWS resources in a virtual network that you define. It closely resembles a
+  traditional network that you’d operate in your data centre.
+- Amazon Virtual Private Cloud (VPC) helps a firm or a user by providing virtual cloud space for integrating
+  the business.
+- With AWS VPC one can completely monitor virtual networking environment, including the selection of
+  your own IP address range, the creation of subnets, and configuration of route tables and network gateways
+  these features helps a lot to integrate businesses.
+- Amazon VPC allows you to logically analyse the section of Amazon Cloud where one can launch AWS
+  Resources in the virtual network.
+- To provide secure and easy access fourth and sixth revision to the Internet Protocol can be used.
+- VPC in AWS as a logical container that separates resources you create from other customers within the
+  Amazon Cloud. It is you defining a network of your own within Amazon.
+
+![image](https://github.com/Ayus0721/AWS/assets/147092631/ac75d27b-38f0-4614-aabf-919a28a251e8)
+
+  
+-  # Subnet and Its Utility
+   Subnets are like breaking a large network into sub-networks. Maintaining a smaller network is easy as
+- # What Is Route Table?
+- Route table can be understood as a table that contains rules for routing traffic within and outside a subnet.
+  The route table is also used to add Internet Gateway to the subnet. There can be multiple route tables in a VPC.
+- # What Is Internet Gateway?
+- Internet Gateway allows instance to connect to the internet. It allows the user to make the subnet pubic by
+  providing a route to the internet. With the help of Internet Gateway, an instance can access the internet and the
+  resources outside instance can access the instance.
+
+- # What is NAT?
+- NAT - Network Address Translation.
+- NAT is designed for IP address conservation. It enables private IP networks that use unregistered IP addresses to
+  connect to the Internet.
+- # How does NAT work?
+- NAT allows a single device, such as a router, to act as an agent between the Internet and a local network, which
+  means a single unique IP address is required to represent an entire group of computers to public network i.e
+  Outside of their Network.
+- # What is NAT Instance?
+- NAT instance enable instances in the private subnet to initiate outbound traffic to the Internet but prevent the
+  instances from receiving inbound traffic initiated by someone on the Internet.
+-  Note: NAT Instance is a legacy, you can use NAT Gateway
+- # What is NAT Gateway?
+- NAT Gateway is a managed NAT service that provides better availability, higher bandwidth, and requires
+less administrative effort.
+
+- # Amazon Route 53
+![image](https://github.com/Ayus0721/AWS/assets/147092631/6bb3f61f-6091-44e4-a5be-ae4321df7d21)
+
+- Route 53 is a highly scalable and highly available Domain Name System by Amazon AWS. The name is in
+  reference to the TCP and UDP’s port 53 where DNS requests are addressed.
+- AWS Route 53 is a domain name system. Domain name system translates human-readable domain name
+  such as www.amazon.com to machine-readable IP address such as 192.0.2.44. Amazon Route 53
+  connects the request of users to the system running in AWS. This system includes Amazon
+  EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets. Moreover, it can connect
+  the user infrastructure outside of AWS. Amazon Route 53 is totally compatible with IPv6. It is designed to
+  boost business in a reliable and cost-effective way. AWS Route 53 answers all the queries with the help of
+  the global network of DNS servers.
+  Queries of the domain are sent to the nearest DNS Server and thus it answers with the best possible
+  performance. With the help of AWS management console or easy-to-use API, one can create and manage
+  the public DNS. AWS Route 53 also helps us to register an available domain name. It helps in a way such that the person has to pay only for the management of domains, and the registered domains in AWS.
 
 
 
+
+
+
+
+
+
+
+
+  
